@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  nav {
+    display: block;
+}
+nav {
+    font-weight: 400;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+}
